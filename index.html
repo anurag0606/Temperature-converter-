@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8ce9e55d77.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="head">
+      <h1>Temperature converter 
+        <i class="fa-solid fa-temperature-three-quarters"></i></h1>
+      </h1>
+    </div>
+    
+    <h2>Temperature converter form Celsius to Fahrenheit</h2>
+    <div class="box">
+      <div class="text1">
+        <h3>Celsius: <input type="number" name="" id="celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        </h3>
+      </div>
+      
+      <div class="text1 ">
+        <h3 id="faren">Result in Fahrenheit : <br> <span id="fahrenheit"> </span>
+        </h3>
+      </div>
+      
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
